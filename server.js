@@ -1,8 +1,8 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var path = require('path');
-var apiRoute = require('./app/routing/api-routes.js');
-var homeRoute = require('./app/routing/html-routes.js');
+var apiRoute = require('./app/routing/apiRoutes.js');
+var homeRoute = require('./app/routing/htmlRoutes.js');
 
 var app = express();
 var PORT = 3000;
