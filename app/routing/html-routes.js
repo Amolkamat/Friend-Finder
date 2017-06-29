@@ -2,7 +2,6 @@ var express = require('express');
 var path = require('path');
 
 
-//Setting Up Routes
 
 var router = express.Router();
 
