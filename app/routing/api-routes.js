@@ -4,7 +4,7 @@ var friends = require('../data/friends.js');
 
 var router = express.Router();
 
-router.post('/api/friends', function(req, res){
+router.post('/api/friends.js', function(req, res){
 
 	console.log(req);
 	
